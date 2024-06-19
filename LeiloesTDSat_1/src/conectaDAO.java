@@ -24,7 +24,7 @@ public class conectaDAO {
             
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            String url = "jdbc:mysql://localhost:3306/leiloestdsat";
+            String url = "jdbc:mysql://localhost:3306/leiloestdsat?useSSL=false";
             String user = "root";
             String password = "180203";
 
